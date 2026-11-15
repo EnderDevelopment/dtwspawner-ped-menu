@@ -1,0 +1,24 @@
+fx_version 'cerulean'
+game 'gta5'
+lua54 'yes'
+
+author 'EnderDevelopment'
+description 'Admin-only QBCore companion ped menu with DPEmotes-compatible idle animations'
+version '1.0.0'
+
+shared_scripts {
+    'config.lua'
+}
+
+client_scripts {
+    'client/main.lua'
+}
+
+server_scripts {
+    'server/main.lua'
+}
+
+dependencies {
+    'qb-core',
+    'qb-menu'
+}
